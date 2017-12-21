@@ -76,10 +76,13 @@ theme: Hueman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  type: git
+#  repo: https://github.com/NullReferenceError/nullreferenceerror.github.io.git
+#  branch: master
 deploy:
-  type: git
-  repo: https://github.com/NullReferenceError/nullreferenceerror.github.io.git
-  branch: master
+  type: heroku
+  repo: https://git.heroku.com/hexo-blog-testing.git
 
 admin:
   username: null
