@@ -7,7 +7,7 @@ title: Hexo Blog testing
 subtitle:
 description:
 author: nullreferenceerror
-language: English
+language: en
 timezone:
 
 # URL
@@ -80,3 +80,8 @@ deploy:
   type: git
   repo: https://github.com/NullReferenceError/nullreferenceerror.github.io.git
   branch: master
+
+admin:
+  username: null
+  password_hash: $2a$10$ARgvMRjONz9iXB7zdAv5QuObgauxwhQKd2suUGFxXTNY2mF8J7coy
+  secret: my super secret phrase
